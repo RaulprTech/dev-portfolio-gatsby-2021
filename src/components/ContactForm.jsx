@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
     return(
-    <form className="mt-16 text-center" netlify>
+    <form className="mt-16 text-center" name="contact" method="POST" data-netlify="true">
         <label 
             htmlFor="contact-content" 
             className="block text-gray-700 text-sm font-bold mb-2">
