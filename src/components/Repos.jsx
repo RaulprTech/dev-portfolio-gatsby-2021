@@ -34,7 +34,7 @@ export default () => {
     return(
     <div className="max-w-4xl mx-auto mt-12">
         <header className="text-center">
-            <h2 className="text-3xl font-bold">Proyectos</h2>
+            <h2 className="text-3xl font-bold">Mi Github</h2>
             <p>¡Mira los asombrosos sitios que he creado!</p>
         </header>
         <div className="container m-6">
