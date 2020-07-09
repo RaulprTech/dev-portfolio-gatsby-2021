@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
     return(
-    <form className="mt-16 text-center" name="contact" method="POST" data-netlify="true">
+    <form className="mt-16 text-center" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         <label 
             htmlFor="contact-content" 
             className="block text-gray-700 text-sm font-bold mb-2">
@@ -15,7 +15,7 @@ export default () => {
                 className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
             >
             </textarea>
-            <button className="btn ml-4">Enviar</button>
+            <button className="btn ml-4" type="submit">Enviar</button>
         </div>
     </form>
     )
