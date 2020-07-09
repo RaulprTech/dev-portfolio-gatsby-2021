@@ -1,0 +1,12 @@
+{
+    "slug": "otros",
+    "title": "Otros logros academicos",
+    "description": "Talleres, diplomados y conferencias en las que he participado",
+    "items": [
+        {
+            "name": "TOEFL",
+            "degree": "TOEFL ITP",
+            "score": "640"
+        }
+    ]
+}

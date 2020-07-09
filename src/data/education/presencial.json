@@ -1,0 +1,17 @@
+{
+    "slug": "presencial",
+    "title": "Formacion Academica",
+    "description": "Formacion academica, grados de estudio e instituciones a las que asisti",
+    "items": [
+        {
+            "name": "Instituto Tecnologico de Lerma",
+            "degree": "Ing. en Electronica",
+            "score": "89"
+        },
+        {
+            "name": "Colegio de Estudios Cientificos y Tecnologicos del Estado de Campeche",
+            "degree": "Tecnico en Mecatronica",
+            "score": "86"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "slug": "online",
+    "title": "Cursos en linea",
+    "description": "Cursos finalizados en plataformas de educacion en internet",
+    "items": [
+        {
+            "name": "Curso Porfesional de React",
+            "url": "https://codigofacilito.com/cursos/react-profesional"
+        },
+        {
+            "name": "Curso Porfesional de Javascript",
+            "url": "https://codigofacilito.com/cursos/javascript-profesional"
+        }
+    ]
+}

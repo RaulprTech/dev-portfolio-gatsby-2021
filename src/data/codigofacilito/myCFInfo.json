@@ -1,0 +1,201 @@
+{
+    "data": {
+        "email": "raul_vrm_2134@hotmail.com",
+        "username": "RaulPachecoTi",
+        "certificates": [
+            {
+                "score": 9,
+                "code": "f636e399-a849-40df-95ca-601be144d22c",
+                "title": "Curso Profesional de React"
+            }
+        ],
+        "articles": [],
+        "courses": [
+            {
+                "title": "Curso de Ejercicios de JAVA y C++",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/ejercicios_java"
+            },
+            {
+                "title": "Curso para crear un juego de Naves en C++",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/naves_c_plus_plus"
+            },
+            {
+                "title": "Curso de Android con Eclipse",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/android_old"
+            },
+            {
+                "title": "Curso de Arduino 2013",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/Arduino"
+            },
+            {
+                "title": "Curso Visual Basic .NET Gratis",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/VB-NET"
+            },
+            {
+                "title": "Curso de CSS Básico Gratis",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/CSS-old"
+            },
+            {
+                "title": "Curso para crear un sitio web en HTML5",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/Pagina-HTML5"
+            },
+            {
+                "title": "Curso de Introducción a HTML5 Gratis",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/HTML5"
+            },
+            {
+                "title": "Curso de C++ Básico Gratis",
+                "progress": "3.0",
+                "url": "http://codigofacilito.com/courses/c-plus-plus"
+            },
+            {
+                "title": "Curso de JAVA Básico Gratis",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/JAVA"
+            },
+            {
+                "title": "Curso de Objective-C Básico Gratis",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/objective-c"
+            },
+            {
+                "title": "Curso Profesional de JavaScript",
+                "progress": "71.0",
+                "url": "http://codigofacilito.com/courses/javascript-profesional"
+            },
+            {
+                "title": "Curso Profesional de Base de Datos",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/base-datos-profesional"
+            },
+            {
+                "title": "Curso a fondo de CSS",
+                "progress": "42.0",
+                "url": "http://codigofacilito.com/courses/css"
+            },
+            {
+                "title": "Curso Profesional de React",
+                "progress": "100.0",
+                "url": "http://codigofacilito.com/courses/react-profesional"
+            },
+            {
+                "title": "Curso de introducción a Gatsby",
+                "progress": "100.0",
+                "url": "http://codigofacilito.com/courses/gatsby-introduccion"
+            },
+            {
+                "title": "El glosario del JAMStack",
+                "progress": "90.0",
+                "url": "http://codigofacilito.com/courses/glosario-jamstack"
+            },
+            {
+                "title": "Curso Profesional de Backend",
+                "progress": "23.0",
+                "url": "http://codigofacilito.com/courses/backend-profesional"
+            },
+            {
+                "title": "Curso de GraphQL con NodeJS",
+                "progress": "8.0",
+                "url": "http://codigofacilito.com/courses/graphql-nodejs"
+            },
+            {
+                "title": "Curso de Arduino Premium ",
+                "progress": "30.0",
+                "url": "http://codigofacilito.com/courses/arduino-premium-firebase"
+            },
+            {
+                "title": "Curso de Ionic desde 0",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/ionic-v4"
+            },
+            {
+                "title": "Curso de Docker Swarm",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/docker-swarm"
+            },
+            {
+                "title": "Curso para desarrollar servicios web REST con Nodejs",
+                "progress": "8.0",
+                "url": "http://codigofacilito.com/courses/nodejs-servicios-web"
+            },
+            {
+                "title": "Curso de diseño para programadores",
+                "progress": "100.0",
+                "url": "http://codigofacilito.com/courses/diseno-basico"
+            },
+            {
+                "title": "Curso Profesional Desarrollo Web",
+                "progress": "19.0",
+                "url": "http://codigofacilito.com/courses/frontend-profesional"
+            },
+            {
+                "title": "JavaScript y el DOM",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/javascript-dom"
+            },
+            {
+                "title": "Proyecto Avanzado de Desarrollo Web Frontend",
+                "progress": "1.0",
+                "url": "http://codigofacilito.com/courses/pagina-profesional"
+            },
+            {
+                "title": "Curso de controles y efectos Frontend",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/controles-efectos-frontend"
+            },
+            {
+                "title": "Curso para crear Single Page Apps con React",
+                "progress": "3.0",
+                "url": "http://codigofacilito.com/courses/react-spa"
+            },
+            {
+                "title": "Taller para integrar servicios de Google con React",
+                "progress": "14.0",
+                "url": "http://codigofacilito.com/courses/react-google-apis"
+            },
+            {
+                "title": "Curso de requerimientos de software",
+                "progress": "21.0",
+                "url": "http://codigofacilito.com/courses/introduccion-requesitos"
+            },
+            {
+                "title": "Crea un sitio personal con Gatsby",
+                "progress": "67.0",
+                "url": "http://codigofacilito.com/courses/sitio-persional-gatsby"
+            },
+            {
+                "title": "Curso para crear un ecommerce serverless con Gatsby",
+                "progress": "3.0",
+                "url": "http://codigofacilito.com/courses/serverless-ecommerce"
+            },
+            {
+                "title": "Autenticación de usuarios con Gatsby",
+                "progress": "0.0",
+                "url": "http://codigofacilito.com/courses/autenticación-usuarios-gatsby"
+            }
+        ],
+        "finished_courses": [
+            {
+                "title": "Curso Profesional de React",
+                "url": "http://codigofacilito.com/courses/react-profesional"
+            },
+            {
+                "title": "Curso de introducción a Gatsby",
+                "url": "http://codigofacilito.com/courses/gatsby-introduccion"
+            },
+            {
+                "title": "Curso de diseño para programadores",
+                "url": "http://codigofacilito.com/courses/diseno-basico"
+            }
+        ]
+    },
+    "errors": []
+}
