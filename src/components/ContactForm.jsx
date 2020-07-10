@@ -52,6 +52,20 @@ export default () => {
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
+        <p>
+          <label>
+            Your name:
+            <br />
+            <input type="text" name="name" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your email:
+            <br />
+            <input type="email" name="email" onChange={handleChange} />
+          </label>
+        </p>
         <div className="flex shadow rounded bg-white border p-2">
             <textarea
                 id="message"
