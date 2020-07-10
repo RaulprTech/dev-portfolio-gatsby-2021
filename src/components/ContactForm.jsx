@@ -17,6 +17,7 @@ export default () => {
     
     const handleSubmit = (e) => {
         e.preventDefault()
+        console.log({state})
         const form = e.target
         fetch('/', {
             method: 'POST',
