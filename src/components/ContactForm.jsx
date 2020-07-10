@@ -1,8 +1,18 @@
 import React from 'react';
 
+function encode(data) {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&')
+  }
+  
 export default () => {
 
     const [state, setState] = React.useState({})
+
+    const handleChange = (e) => {
+        setState({ ...state})
+    }
     
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -11,7 +21,6 @@ export default () => {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: encode({
-                'form-name': form.getAttribute('name'),
                 ...state,
             }),
         })
@@ -37,6 +46,7 @@ export default () => {
                 id="contact-content"
                 type="hidden"
                 name="contact-content"
+                onSubmit={handleChange}
                 className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
             >
             </textarea>
