@@ -13,12 +13,12 @@ export default () => {
 
     const handleChange = (e) => {
         setState({ ...state,  [e.target.name]: e.target.value});
-        console.log({[e.target.name]: e.target.value})
     }
     
     const handleSubmit = (e) => {
         e.preventDefault()
         const form = e.target
+        console.log(e.target);
         fetch('/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -33,7 +33,7 @@ export default () => {
     <form 
         className="mt-16 text-center" 
         name="contact" 
-        method="post" 
+        method="POST" 
         action="/thanks/"
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
