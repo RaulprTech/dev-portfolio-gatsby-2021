@@ -5,19 +5,19 @@ function encode(data) {
     return Object.keys(data)
       .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
       .join('&')
-  }
+    }
   
 export default () => {
 
     const [state, setState] = React.useState({})
 
     const handleChange = (e) => {
-        setState({ ...state,  [e.target.name]: e.target.value})
+        setState({ ...state,  [e.target.name]: e.target.value});
+        console.log({[e.target.name]: e.target.value})
     }
     
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log({state})
         const form = e.target
         fetch('/', {
             method: 'POST',
@@ -37,7 +37,8 @@ export default () => {
         action="/thanks/"
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}>
+        onSubmit={handleSubmit}
+        hidden>
         <label 
             htmlFor="contact-content" 
             className="block text-gray-700 text-sm font-bold mb-2">
