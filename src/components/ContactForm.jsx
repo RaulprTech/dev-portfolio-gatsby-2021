@@ -41,7 +41,7 @@ export default () => {
         onSubmit={handleSubmit}
         >
         <label 
-            htmlFor="contact-content" 
+            htmlFor="contact-label" 
             className="block text-gray-700 text-sm font-bold mb-2">
             Cuentame de esa idea que quieres hacer realidad
         </label>
