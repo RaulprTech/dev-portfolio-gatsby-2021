@@ -14,7 +14,7 @@ export default () => {
     const handleChange = (e) => {
         setState({ ...state, [e.target.name]: e.target.value })
     }
-    
+
     const handleSubmit = (e) => {
         e.preventDefault()
         const form = e.target
@@ -28,7 +28,6 @@ export default () => {
         })
             .then(() => navigate(form.getAttribute('action')))
             .catch((error) => alert(error))
-            console.log(e.target);
     }
     return(
     <form 
