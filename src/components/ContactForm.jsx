@@ -45,7 +45,6 @@ export default () => {
         <div className="flex shadow rounded bg-white border p-2">
             <textarea
                 id="contact-content"
-                type="hidden"
                 name="contact-content"
                 onSubmit={handleChange}
                 className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
