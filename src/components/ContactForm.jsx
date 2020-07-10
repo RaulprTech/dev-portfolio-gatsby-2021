@@ -12,22 +12,23 @@ export default () => {
     const [state, setState] = React.useState({})
 
     const handleChange = (e) => {
-        setState({ ...state,  [e.target.name]: e.target.value});
+        setState({ ...state, [e.target.name]: e.target.value })
     }
     
     const handleSubmit = (e) => {
         e.preventDefault()
         const form = e.target
-        console.log(e.target);
         fetch('/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: encode({
+                'form-name': form.getAttribute('name'),
                 ...state,
             }),
         })
             .then(() => navigate(form.getAttribute('action')))
             .catch((error) => alert(error))
+            console.log(e.target);
     }
     return(
     <form 
