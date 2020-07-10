@@ -51,8 +51,7 @@ export default () => {
                 name="contact-content"
                 onSubmit={handleChange}
                 className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
-            >
-            </textarea>
+            />
             <button className="btn ml-4" type="submit">Enviar</button>
         </div>
     </form>
