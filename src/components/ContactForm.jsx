@@ -38,7 +38,7 @@ export default () => {
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
-        hidden>
+        >
         <label 
             htmlFor="contact-content" 
             className="block text-gray-700 text-sm font-bold mb-2">
