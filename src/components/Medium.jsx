@@ -1,4 +1,4 @@
-// https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40RaulPachecoTi
+// https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40RaulprTech
 
 import React, {useState, useEffect} from 'react';
 import Posts from './Posts';
@@ -17,7 +17,7 @@ export default () => {
         let myPosts;
 
         async function getMediumPosts(){
-            const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40RaulPachecoTi");
+            const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40RaulprTech");
             myPosts = await response.json();
             sessionStorage.setItem('posts', JSON.stringify(myPosts.items));
 

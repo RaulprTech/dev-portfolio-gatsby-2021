@@ -1,0 +1,25 @@
+{
+    "slug": "movil",
+    "title": "Proyectos de Desarrollo Movil",
+    "description": "Mira los proyectos que he desarrollado",
+    "proyects": [
+        {
+            "name": "Cloudy",
+            "description": "Aplicacion de monitoreo y visualizacion de zonas propensas a inundaciones",
+            "tecnologys": [
+                "Java", "API Goolge Maps"
+            ],
+            "git": "",
+            "demo": ""
+        },
+        {
+            "name": "Kaxbi",
+            "description": "MVP de Aplicacion que usa la realidad virtual para promover el turismo",
+            "tecnologys": [
+                "Unity3D", "C#"
+            ],
+            "git": "",
+            "demo": ""
+        }
+    ]
+}

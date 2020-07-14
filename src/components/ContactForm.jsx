@@ -10,9 +10,12 @@ function encode(data) {
 export default () => {
 
     const [state, setState] = React.useState({})
+    const [message, setMessage] = React.useState({})
 
     const handleChange = (e) => {
-        setState({ ...state, [e.target.name]: e.target.value })
+        const { value, name } = e.target
+        setMessage({...message, [e.target.name]: e.target.value})
+        //setState({ ...state, [e.target.name]: e.target.value })
     }
 
     const handleSubmit = (e) => {
@@ -23,7 +26,7 @@ export default () => {
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: encode({
                 'form-name': form.getAttribute('name'),
-                ...state,
+                ...message,
             }),
         })
             .then(() => navigate(form.getAttribute('action')))
@@ -51,36 +54,19 @@ export default () => {
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <p>
-          <label>
-            Your name:
-            <br />
-            <input 
-                type="text"
-                name="name" 
-                onChange={handleChange}
-                className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" 
-            />
-          </label>
-        </p>
-        <p>
-          <label>
-            Your email:
-            <br />
-            <input 
-                type="email" 
-                name="email" 
-                onChange={handleChange}
-                className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" 
-            />
-          </label>
-        </p>
         <br/>
         <div className="flex shadow rounded bg-white border p-2">
-            <textarea
+            {/*<textarea
                 id="message"
                 name="message"
                 onSubmit={handleChange}
+                className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+            ></textarea>*/}
+            <textarea
+                id="message" 
+                type="textarea" 
+                name="message" 
+                onChange={handleChange} 
                 className="flex-1 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
             />
             <button className="btn ml-4" type="submit">Enviar</button>

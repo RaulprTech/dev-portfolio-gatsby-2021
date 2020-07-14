@@ -1,0 +1,25 @@
+{
+        "slug": "web",
+        "title": "Proyectos Web",
+        "description": "Mira los proyectos que he desarrollado",
+        "proyects": [
+            {
+                "name": "Revolucion Game",
+                "description": "Sitio web oficial de la empresa Revolucion Game con la que pueden publicar y gestionar los torneos que realizan",
+                "tecnologys": [
+                    "React", "Firebase", "Bootstrap"
+                ],
+                "git": "https://github.com/RaulprTech/RevoGame",
+                "demo": "https://revo-game.web.app/"
+            },
+            {
+                "name": "TMaker",
+                "description": "Sitio web de Agencia digital",
+                "tecnologys": [
+                    "React", "Bootstrap"
+                ],
+                "git": "",
+                "demo": ""
+            }
+        ]
+}
