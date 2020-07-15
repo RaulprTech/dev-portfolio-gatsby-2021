@@ -1,0 +1,35 @@
+{
+    "slug": "topProyects",
+    "title": "Proyectos Destacados",
+    "description": "Este el top de mis mejores proyectos",
+    "proyects": [
+        {
+            "name": "Revolucion Game",
+            "description": "Sitio web oficial de la empresa Revolucion Game con la que pueden publicar y gestionar los torneos que realizan",
+            "type": "",
+            "tecnologys": [
+                "React", "Firebase", "Bootstrap"
+            ],
+            "git": "",
+            "demo": ""
+        },
+        {
+            "name": "Cloudy",
+            "description": "Aplicacion de monitoreo y visualizacion de zonas propensas a inundaciones",
+            "tecnologys": [
+                "Java", "API Goolge Maps"
+            ],
+            "git": "",
+            "demo": ""
+        },
+        {
+            "name": "Sky Watcher",
+            "description": "Sistema de monitoreo del clima",
+            "tecnologys": [
+                "Javascript", "Bootstrap", "Node", "SocketIO", "Arduino", "GSM"
+            ],
+            "git": "",
+            "demo": ""
+        }
+    ]
+}

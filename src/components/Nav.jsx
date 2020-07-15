@@ -15,8 +15,8 @@ export default () => {
             </div> 
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div className="lg:flex-grow">
-                    <span to="/#Proyectos" className="block mt-4 lg:inline-block lg:mt-0 text-purple-600 hover:text-white mr-4 font-bold">Proyectos</span>
-                    <Link to="/#Educacion" className="block mt-4 lg:inline-block lg:mt-0 text-purple-600 hover:text-white mr-4 font-bold">Educacion</Link>
+                    <Link to="/#Proyects" className="block mt-4 lg:inline-block lg:mt-0 text-purple-600 hover:text-white mr-4 font-bold">Proyectos</Link>
+                    <Link to="/#Education" className="block mt-4 lg:inline-block lg:mt-0 text-purple-600 hover:text-white mr-4 font-bold">Educacion</Link>
                     <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 text-purple-600 hover:text-white mr-4 font-bold">Mas de mi</Link>
                 </div>
             </div>

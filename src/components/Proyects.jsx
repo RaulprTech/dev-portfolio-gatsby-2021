@@ -4,23 +4,24 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 export default (props) => {
     const data = useStaticQuery(graphql`
         {
-            allEducationJson{
-                edges{
-                    node{
-                        slug
-                        title
-                        description
-                    }
+            allProyectsJson {
+                edges {
+                  node {
+                    slug
+                    title
+                    description
+                  }
                 }
             }
         }
     `)
     return(
-        <div id="Education" className="max-w-4xl mx-auto mt-20">
-            <h2 className="text-3xl font-bold text-center">Conoce sobre mi formacion educativa</h2>
+        <div id="Proyects" className="max-w-4xl mx-auto mt-20">
+            <h2 className="text-3xl font-bold text-center">¿Que tipo de proyectos realizo?</h2>
+            <p className="text-center">Estas son las areas en las que usualmente realizo proyectos</p>
             <nav className="flex justificy-center mt-8">
                 {
-                    data.allEducationJson.edges.map((element, index) => {
+                    data.allProyectsJson.edges.map((element, index) => {
                         const { node } = element;
                         return(
                             <article className="flex-1 bg-white shadow m-4 max-w-sm p-4">

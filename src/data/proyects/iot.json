@@ -1,22 +1,22 @@
 {
     "slug": "iot",
-    "title": "Proyectos de IoT",
+    "title": "Internet of Things",
     "description": "Mira los proyectos que he desarrollado",
     "proyects": [
         {
-            "name": "Revolucion Game",
-            "description": "Sitio web oficial de la empresa Revolucion Game con la que pueden publicar y gestionar los torneos que realizan",
+            "name": "Rimep",
+            "description": "Rastreador de lanchas incrustado en el motor para prevenir su robo",
             "tecnologys": [
-                "React", "Firebase", "Bootstrap"
+                "C#", "Arduino", "GSM", "GPS"
             ],
             "git": "",
             "demo": ""
         },
         {
-            "name": "TMaker",
-            "description": "Sitio web de Agencia digital",
+            "name": "Sky Watcher",
+            "description": "Sistema de monitoreo del clima",
             "tecnologys": [
-                "React", "Bootstrap"
+                "Javascript", "Bootstrap", "Node", "SocketIO", "Arduino", "GSM"
             ],
             "git": "",
             "demo": ""

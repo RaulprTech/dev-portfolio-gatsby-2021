@@ -34,8 +34,8 @@ export default () => {
     return(
     <div className="max-w-4xl mx-auto mt-12">
         <header className="text-center">
-            <h2 className="text-3xl font-bold">Mi Github</h2>
-            <p>¡Mira los asombrosos sitios que he creado!</p>
+            <h2 className="text-3xl font-bold">Mi GitHub</h2>
+            <p>Mira mi trabajo en open-source</p>
         </header>
         <div className="container m-6">
             <ul className="repos-list">
@@ -48,7 +48,7 @@ export default () => {
             <div className="mt-8 text-center">
                 <a 
                     className="btn" 
-                    href="https://github.com/RaulPachecoTi/" 
+                    href="https://github.com/RaulprTech/" 
                     target="_blank" 
                     rel="noopener noreferrer"> 
                     Ver mas en Github ({reposCount})

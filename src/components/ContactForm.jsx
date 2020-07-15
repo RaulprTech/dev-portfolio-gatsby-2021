@@ -29,7 +29,11 @@ export default () => {
                 ...message,
             }),
         })
-            .then(() => navigate(form.getAttribute('action')))
+            .then(() => {
+                navigate(form.getAttribute('action'));
+                alert("Tu mensaje ha sido enviado, te contactare los mas pronto posible");
+                setMessage("");
+            })
             .catch((error) => alert(error))
     }
     return(
@@ -37,7 +41,7 @@ export default () => {
         className="mt-16 text-center" 
         name="contact" 
         method="post" 
-        action="/thanks/"
+        action="/"
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
