@@ -47,7 +47,7 @@ export default ({ data }) => {
 
                             <div className="inline-block">
                                 <img 
-                                    src="https://cdn.pixabay.com/photo/2016/09/06/13/38/classic-1649131_1280.png" 
+                                    src="https://cdn.pixabay.com/photo/2017/12/22/08/01/paper-3033204_1280.jpg" 
                                     className="transform scale-50 ..."
                                 />
                             </div>
