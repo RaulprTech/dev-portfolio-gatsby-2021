@@ -6,30 +6,35 @@
         {
             "name": "Revolucion Game",
             "description": "Sitio web oficial de la empresa Revolucion Game con la que pueden publicar y gestionar los torneos que realizan",
-            "type": "",
+            "type": "web",
+            "git": "https://github.com/RaulprTech/Revolucion-Game-tournaments-online.git",
+            "demo": "https://revo-game.web.app/",
+            "image": "revo.png",
             "tecnologys": [
                 "React", "Firebase", "Bootstrap"
-            ],
-            "git": "",
-            "demo": ""
+            ]
         },
         {
-            "name": "Cloudy",
+            "name": "Cloudi",
             "description": "Aplicacion de monitoreo y visualizacion de zonas propensas a inundaciones",
+            "type": "app",
+            "git": "https://github.com/RaulprTech/Cloudi_help_app",
+            "demo": "",
+            "image": "cloudi.png",
             "tecnologys": [
-                "Java", "API Goolge Maps"
-            ],
-            "git": "",
-            "demo": ""
+                "Java", "Android", "API Goolge Maps"
+            ]
         },
         {
             "name": "Sky Watcher",
             "description": "Sistema de monitoreo del clima",
+            "type": "iot",
+            "git": "",
+            "demo": "",
+            "image": "sky",
             "tecnologys": [
                 "Javascript", "Bootstrap", "Node", "SocketIO", "Arduino", "GSM"
-            ],
-            "git": "",
-            "demo": ""
+            ]
         }
     ]
 }

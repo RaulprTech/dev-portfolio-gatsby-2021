@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import EduNav from "../components/Education-nav";
-import Post from '../components/Posts'
+import Posts from '../components/Posts'
 
 
 export default ({ data }) => {

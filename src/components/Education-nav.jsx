@@ -18,7 +18,7 @@ export default (props) => {
     return(
         <div id="Education" className="max-w-4xl mx-auto mt-20">
             <h2 className="text-3xl font-bold text-center">Conoce sobre mi formacion educativa</h2>
-            <nav className="flex justificy-center mt-8">
+            <nav className="flex justificy-center mt-8 max-w-4xl mx-auto overflow-x-scroll">
                 {
                     data.allEducationJson.edges.map((element, index) => {
                         const { node } = element;
