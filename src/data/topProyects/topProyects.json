@@ -5,7 +5,7 @@
     "proyects": [
         {
             "name": "Revolucion Game",
-            "description": "Sitio web oficial de la empresa Revolucion Game con la que pueden publicar y gestionar los torneos que realizan",
+            "description": "Sitio web de Revolucion Game para publicar y gestionar torneos de videojuegos",
             "type": "web",
             "git": "https://github.com/RaulprTech/Revolucion-Game-tournaments-online.git",
             "demo": "https://revo-game.web.app/",
@@ -15,25 +15,14 @@
             ]
         },
         {
-            "name": "Cloudi",
-            "description": "Aplicacion de monitoreo y visualizacion de zonas propensas a inundaciones",
-            "type": "app",
-            "git": "https://github.com/RaulprTech/Cloudi_help_app",
-            "demo": "",
-            "image": "cloudi.png",
+            "name": "NewHouse",
+            "description": "Sitio para venta de casas con diseño minimalista con GraphQl para mejor manejo de datos",
+            "type": "web",
+            "git": "https://github.com/RaulprTech/new-house",
+            "demo": "https://new-house.vercel.app/",
+            "image": "house.png",
             "tecnologys": [
-                "Java", "Android", "API Goolge Maps"
-            ]
-        },
-        {
-            "name": "Sky Watcher",
-            "description": "Sistema de monitoreo del clima",
-            "type": "iot",
-            "git": "",
-            "demo": "",
-            "image": "sky",
-            "tecnologys": [
-                "Javascript", "Bootstrap", "Node", "SocketIO", "Arduino", "GSM"
+                "React", "Gatsby", "Tailwind", "GraphQl"
             ]
         }
     ]
