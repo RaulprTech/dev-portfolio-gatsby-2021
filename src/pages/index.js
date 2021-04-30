@@ -1,20 +1,20 @@
 import React from "react"
-import Header from "../components/Header"
-import Repos from "../components/Repos"
-import Skills from "../components/Skills"
-import Medium from "../components/Medium"
-import EduNav from "../components/Education-nav"
-import Proyects from "../components/Proyects"
-import TopProyects from "../components/TopProyects"
+import Presentation from "../components/Presentation"
+import Repos from "../components/Github/Repos"
+import Medium from "../components/Blog/Medium"
+import Devto from "../components/Blog/Devto"
+import Projects from "../components/Projects"
+import TopProjects from "../components/Projects/TopProjects"
+import Nav from "../components/Navigators/Nav"
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <TopProyects />
-      <Repos />
-      <EduNav />
-      <Medium />
+    <div className="bg-purple-100">
+      <Presentation />
+      <TopProjects />
+      <Devto />
+      <Footer/>
     </div>
   )
 }

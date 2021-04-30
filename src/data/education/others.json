@@ -4,8 +4,18 @@
     "description": "Talleres, diplomados y conferencias en las que he participado",
     "items": [
         {
-            "name": "Startup Weekend Nacional 2020",
-            "degree": "Primeros 10",
+            "name": "Programa de incubacion de empresa \"Kaxbi\" de realidad virtual",
+            "degree": "",
+            "score": ""
+        },
+        {
+            "name": "Instructor en \"Introduccion a Processing\" en Tecnologico de Lerma ",
+            "degree": "",
+            "score": ""
+        },
+        {
+            "name": "Instructor en \"Programando con Arduino\" en Tecnologico de Lerma ",
+            "degree": "",
             "score": ""
         }
     ]

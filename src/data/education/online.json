@@ -10,6 +10,18 @@
         {
             "name": "Curso Porfesional de Javascript",
             "url": "https://codigofacilito.com/cursos/javascript-profesional"
+        },
+        {
+            "name": "Curso de Frontend Developer",
+            "url": "https://platzi.com/p/RaulprTech/curso/1640-frontend-developer/diploma/detalle/"
+        },
+        {
+            "name": "Curso de Trabajo Remoto",
+            "url": "https://platzi.com/p/RaulprTech/curso/1872-teletrabajo-trabajo-remoto/diploma/detalle/"
+        },
+        {
+            "name": "Curso basico de Javascript",
+            "url": "https://platzi.com/p/RaulprTech/curso/1814-basico-javascript/diploma/detalle/"
         }
     ]
 }

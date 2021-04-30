@@ -1,20 +1,19 @@
-const path =require('path');
+const path = require("path")
 
-exports.createPages = async ({graphql, actions}) => {
-
-    const result = await graphql(`
+exports.createPages = async ({ graphql, actions }) => {
+  const result = await graphql(`
     {
-        allEducationJson {
-            edges {
-              node {
-                slug
-              }
-            }
+      allEducationJson {
+        edges {
+          node {
+            slug
           }
         }
-    `);
+      }
+    }
+  `)
 
-    const proyectsResult = await graphql(`
+  const proyectsResult = await graphql(`
     {
       allProyectsJson {
         edges {
@@ -24,28 +23,27 @@ exports.createPages = async ({graphql, actions}) => {
         }
       }
     }
-    `);
+  `)
 
-
-    result.data.allEducationJson.edges.forEach(element => {
-        const { node } = element;
-        actions.createPage({
-            path: node.slug,
-            component: path.resolve('./src/templates/Education.js'),
-            context: {
-                slug: node.slug
-            }
-        })
+  result.data.allEducationJson.edges.forEach(element => {
+    const { node } = element
+    actions.createPage({
+      path: node.slug,
+      component: path.resolve("./src/templates/Education.js"),
+      context: {
+        slug: node.slug,
+      },
     })
+  })
 
-    proyectsResult.data.allProyectsJson.edges.forEach(element => {
-      const { node } = element;
-      actions.createPage({
-          path: node.slug,
-          component: path.resolve('./src/templates/Proyects.js'),
-          context: {
-              slug: node.slug
-          }
-      })
+  proyectsResult.data.allProyectsJson.edges.forEach(element => {
+    const { node } = element
+    actions.createPage({
+      path: node.slug,
+      component: path.resolve("./src/templates/Projects.js"),
+      context: {
+        slug: node.slug,
+      },
+    })
   })
 }
