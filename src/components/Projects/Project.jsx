@@ -1,23 +1,18 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import Img from "gatsby-image"
+import GitHub from "../../imgs/otherSocialMedia/github.svg"
+import Web from "../../imgs/otherSocialMedia/web.svg"
+import Skill from "../../components/Profile/Skill"
 
 export default ({ element, img }) => {
   const proyect = element
   const image = element.image
 
-  const imgGridStyle = {
-    display: "grid",
-    gridTemplateColumns: `repeat(auto-fill, 200px)`,
-  }
-
   return (
-    <section
-      className="shadow bg-white mr-4 rounded flex-shrink-0 flex-col justify-between"
-      style={{ width: "320px" }}
-    >
+    <section className="grid grid-rows-2 w-auto h-auto lg:w-1/3 shadow bg-gray-100 m-4 rounded">
       {/*style={{backgroundImage: `url(${post.thumbnail})`}}*/}
-      <header className="h-40 bg-cover bg-center" style={imgGridStyle}>
+      <header className="bg-cover bg-center max-h-full">
         {img.allImageSharp.edges.map((Edge, i) => {
           if (image === Edge.node.fixed.originalName) {
             return (
@@ -26,39 +21,46 @@ export default ({ element, img }) => {
           }
         })}
       </header>
-      <article className="px-6 py-4">
+      <article className="px-4 max-h-full">
         <h4 className="font-bold text-xl mb-2">
           <a href={proyect.git} target="_blank" rel="noopener noreferrer">
             {proyect.name}
           </a>
         </h4>
-        <p className="text-gray-700 text-base">{proyect.description}</p>
+        <p className="text-gray-700 text-base overflow-hidden">
+          {proyect.description}
+        </p>
+        <ul className="flex flex-wrap items-center justify-around py-3 overflow-x-scroll scroll">
+          {proyect.tecnologys.map(tech => (
+            <Skill title="" img={tech.url} size="h-6 w-8" id={tech} />
+          ))}
+        </ul>
       </article>
-      <article className="px-6 py-4">
-        {proyect.tecnologys.map(tech => (
-          <span
-            key={tech}
-            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-          >
-            {tech}
-          </span>
-        ))}
-      </article>
-      <footer className="flex justify-around bottom-0 p-3">
+      <footer className="flex justify-around p-3">
         {proyect.git && (
           <Link
             to={proyect.git}
-            className="btn-black inline-block  hover:border-gray-700 hover:bg-gray-600"
+            className="btn-black flex items-center justify-between"
           >
-            Github
+            <img
+              src={GitHub}
+              alt="Logo de Github: gato blanco en fondo negro"
+              className="h-4 w-4 mr-2"
+            />
+            GitHub
           </Link>
         )}
         {proyect.demo && (
           <Link
             to={proyect.demo}
-            className="btn-blue inline-block hover:border-blue-600 hover:bg-blue-400"
+            className="btn-blue flex items-center justify-between"
           >
-            Demo
+            <img
+              src={Web}
+              alt="Planeta de lineas, representando a internet"
+              className="h-4 w-4 mr-2"
+            />
+            Ver Sitio
           </Link>
         )}
       </footer>

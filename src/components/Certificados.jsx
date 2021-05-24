@@ -1,8 +1,8 @@
 import React from "react"
 import { useStaticQuery, grap, graphql } from "gatsby"
-import Posts from "./Blog/Posts"
-import Certificate from "./Certificate"
-import Course from "./Course"
+import Posts from "../Blog/Posts"
+import Certificate from "../Certificate"
+import Course from "../Course"
 
 export default () => {
   const data = useStaticQuery(graphql`

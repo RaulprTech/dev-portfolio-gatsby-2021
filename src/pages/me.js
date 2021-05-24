@@ -8,7 +8,7 @@ export default function me() {
 
 const Info = () => {
   return (
-    <section className="text-gray-900 body-font p-5 bg-purple-100">
+    <section className="">
       <Profile />
       <Footer/>
     </section>

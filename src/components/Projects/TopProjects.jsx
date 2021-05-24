@@ -14,7 +14,10 @@ export default () => {
           name
           type
           image
-          tecnologys
+          tecnologys {
+            name
+            url
+          }
         }
       }
       allImageSharp {
@@ -33,7 +36,7 @@ export default () => {
   return (
     <section id="Projects">
       <div className="mt-24">
-        <div className="scroll">
+        <div className=" max-w-4xl mx-auto">
           <Posts
             data={data.topProyectsJson.proyects}
             img={data}

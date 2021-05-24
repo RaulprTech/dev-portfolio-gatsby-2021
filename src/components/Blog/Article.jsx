@@ -6,10 +6,10 @@ export default ({ element }) => {
   return (
     <div
       className="shadow bg-white mr-4 rounded flex-shrink-0"
-      style={{ width: "320px" }}
+      style={{ width: "300px" }}
     >
       <header
-        className="h-40 bg-cover bg-center"
+        className="bottom-auto h-40 bg-cover bg-center"
         style={{ backgroundImage: `url(${post.cover_image})` }}
       ></header>
       <div className="px-6 py-4">
@@ -17,7 +17,7 @@ export default ({ element }) => {
           <h4 className="font-bold text-xl mb-2">{post.title}</h4>
         </Link>
         <p className=" font-medium text-base">{post.description}</p>
-        <div className=" text-right">
+        {/* <div className="flex align-bottom justify-end">
           <Link
             to={post.url}
             target="_blank"
@@ -25,7 +25,7 @@ export default ({ element }) => {
           >
             Leer Mas
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )
