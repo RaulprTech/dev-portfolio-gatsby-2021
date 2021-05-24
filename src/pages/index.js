@@ -28,6 +28,10 @@ export default function Home() {
       "url" : "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg",
     },
     {
+      "name": "Tailwind",
+      "url": "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
+    },
+    {
       "name" : "Node",
       "url" : "https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png",
     },

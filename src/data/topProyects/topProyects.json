@@ -1,75 +1,67 @@
 {
-    "slug": "topProyects",
-    "title": "Proyectos Destacados",
-    "description": "Este el top de mis mejores proyectos",
-    "proyects": [
+  "slug": "topProyects",
+  "title": "Proyectos Destacados",
+  "description": "Este el top de mis mejores proyectos",
+  "proyects": [
+    {
+      "name": "Revolucion Game",
+      "description": "Sitio web de Revolucion Game para publicar y gestionar torneos de videojuegos",
+      "type": "web",
+      "git": "https://github.com/RaulprTech/Revolucion-Game-tournaments-online.git",
+      "demo": "https://revo-game.web.app/",
+      "image": "revo.png",
+      "tecnologys": [
         {
-            "name": "Revolucion Game",
-            "description": "Sitio web de Revolucion Game para publicar y gestionar torneos de videojuegos",
-            "type": "web",
-            "git": "https://github.com/RaulprTech/Revolucion-Game-tournaments-online.git",
-            "demo": "https://revo-game.web.app/",
-            "image": "revo.png",
-            "tecnologys": [
-                {
-                    "name": "Javascript",
-                    "url": "https://iconape.com/wp-content/files/vr/353405/svg/javascript-js-seeklogo.com.svg"
-                  },
-                  {
-                    "name" : "React",
-                    "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
-                  },
-                  {
-                    "name" : "Gatsby",
-                    "url" : "https://iconape.com/wp-content/files/mc/370910/svg/370910.svg"
-                  },
-                  {
-                    "name" : "Next",
-                    "url" : "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg"
-                  },
-                  {
-                    "name" : "Node",
-                    "url" : "https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png"
-                  },
-                  {
-                    "name": "Firebase",
-                    "url": "https://www.gstatic.com/devrel-devsite/prod/v1674d466be3b1154327dd11cf186e748303b1e92ae31ff35df0f5192fbd777ea/firebase/images/touchicon-180.png"
-                  }
-            ]
+          "name": "Javascript",
+          "url": "https://iconape.com/wp-content/files/vr/353405/svg/javascript-js-seeklogo.com.svg"
         },
         {
-            "name": "HouseForSale",
-            "description": "Sitio para venta de casas con diseño minimalista con GraphQl para mejor manejo de datos",
-            "type": "web",
-            "git": "https://github.com/RaulprTech/new-house",
-            "demo": "https://new-house.vercel.app/",
-            "image": "house.png",
-            "tecnologys": [
-                {
-                    "name": "Javascript",
-                    "url": "https://iconape.com/wp-content/files/vr/353405/svg/javascript-js-seeklogo.com.svg"
-                  },
-                  {
-                    "name" : "React",
-                    "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
-                  },
-                  {
-                    "name" : "Gatsby",
-                    "url" : "https://iconape.com/wp-content/files/mc/370910/svg/370910.svg"
-                  },
-                  {
-                    "name" : "Next",
-                    "url" : "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg"
-                  },
-                  {
-                    "name" : "Node",
-                    "url" : "https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png"
-                  },
-                  {
-                    "name": "Firebase",
-                    "url": "https://www.gstatic.com/devrel-devsite/prod/v1674d466be3b1154327dd11cf186e748303b1e92ae31ff35df0f5192fbd777ea/firebase/images/touchicon-180.png"
-                  }
-            ]
+          "name": "React",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
+        },
+        {
+          "name": "Next",
+          "url": "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg"
+        },
+        {
+          "name": "Firebase",
+          "url": "https://www.gstatic.com/devrel-devsite/prod/v1674d466be3b1154327dd11cf186e748303b1e92ae31ff35df0f5192fbd777ea/firebase/images/touchicon-180.png"
+        },
+        {
+          "name": "Bootstrap",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
         }
-    ]
+      ]
+    },
+    {
+      "name": "HouseForSale",
+      "description": "Sitio para venta de casas con diseño minimalista con GraphQl para mejor manejo de datos",
+      "type": "web",
+      "git": "https://github.com/RaulprTech/new-house",
+      "demo": "https://new-house.vercel.app/",
+      "image": "house.png",
+      "tecnologys": [
+        {
+          "name": "Javascript",
+          "url": "https://iconape.com/wp-content/files/vr/353405/svg/javascript-js-seeklogo.com.svg"
+        },
+        {
+          "name": "React",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
+        },
+        {
+          "name": "Next",
+          "url": "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg"
+        },
+        {
+          "name": "Tailwind",
+          "url": "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
+        },
+        {
+          "name": "Firebase",
+          "url": "https://www.gstatic.com/devrel-devsite/prod/v1674d466be3b1154327dd11cf186e748303b1e92ae31ff35df0f5192fbd777ea/firebase/images/touchicon-180.png"
+        }
+      ]
+    }
+  ]
 }
