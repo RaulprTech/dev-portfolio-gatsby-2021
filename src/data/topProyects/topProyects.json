@@ -38,7 +38,7 @@
       "description": "Sitio para venta de casas con diseño minimalista con GraphQl para mejor manejo de datos",
       "type": "web",
       "git": "https://github.com/RaulprTech/new-house",
-      "demo": "https://new-house.vercel.app/",
+      "demo": "https://sellforhouse.netlify.app/",
       "image": "house.png",
       "tecnologys": [
         {

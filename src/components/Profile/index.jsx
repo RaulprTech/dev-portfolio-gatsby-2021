@@ -6,15 +6,11 @@ import Github from "../Github/Repos"
 import Skills from "./Skills"
 import Web from "../../imgs/otherSocialMedia/web.svg"
 
+
 export default function index() {
   return (
     <>
-      <div className="container p-6">
-        <Link to="/" className="uppercase underline text-purple-600 block">
-          Regresar al inicio
-        </Link>
-      </div>
-      <div className="container mx-auto flex-col px-4 items-center bg-blue-300 my-0 py-4">
+      <div className="flex-col items-center bg-blue-300 my-0">
         <Info />
         <Timeline />
         <EduNav />
@@ -26,27 +22,24 @@ export default function index() {
 const Info = () => {
   return (
     <>
-      <header className=" w-screen h-32">
+      <header className="">
         <h1 className="text-4xl font-bold">Acerca de Mi</h1>
         <h2 className=" text-xl font-light">
           Informacion sobre mi y sobre lo que amo hacer
         </h2>
       </header>
       <div className="flex">
-        <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6 sm:block hidden">
+        <div className="mt-12 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 sm:block hidden">
           <img
             className="object-cover object-center rounded"
             alt="hero"
             src={photo}
           />
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
+        <div className="lg:flex-grow flex flex-col md:items-start mb-16 md:mb-0 items-end">
           <figure className="visible">
             <div className="">
-              <div className="pt-10 px-2 sm:px-6">
-                {/* <span className="inline-block py-1 px-2 rounded-full bg-green-600 text-white  text-xs font-bold tracking-widest mb-2">
-                Frontend Developer
-              </span> */}
+              <div className="pt-10 sm:px-6 lg:ml-4">
                 <h1 className=" font-bold sm:text-xl text-2xl mb-4 text-gray-900">
                   ¡Hola! Soy Raul Pacheco Rodriguez
                   <br className="hidden lg:inline-block" />
@@ -59,13 +52,13 @@ const Info = () => {
                 <p className="text-gray-800 text-base pb-4">
                   Me gusta compartir lo que se y aprender muchas cosas mas.
                 </p>
-                <p className="text-gray-800 text-base pb-8">
+                <p className="text-gray-800 text-base pb-4">
                   Algo que me gusta mucho a la hora de desarrollar sitios web es
                   buscar un equilibrio entre la funcionalidad y una vista
                   agradable. Creo que ambas partes son muy importantes a tener
                   en cuenta cuando se desarrolla.
                 </p>
-                <a href="/" className=" cursor-pointer">
+                <a href="https://1drv.ms/b/s!AhahwdXAigv6gYEYJz_0fH3Jn2JlNQ" className=" cursor-pointer">
                 <button className="btn-blue flex items-center justify-between">
                   <img
                     src={Web}
@@ -86,7 +79,7 @@ const Info = () => {
 
 const Timeline = () => {
   return (
-    <div className="container mx-auto py-4 bg-blue-100 shadow rounded my-6">
+    <div className="py-4 bg-blue-100 shadow rounded my-6">
       <h2 className="text-3xl font-bold text-center p-4">
         Talleres y Ponencias
       </h2>

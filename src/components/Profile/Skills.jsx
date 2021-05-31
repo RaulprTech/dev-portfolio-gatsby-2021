@@ -3,7 +3,7 @@ import Skill from "./Skill"
 
 export default function Skills({size, languages, title}) {
   return (
-    <section className="container mx-auto pt-4 max-w-4xl">
+    <section className="container mx-auto pt-8 max-w-4xl">
         <h1 className="text-3xl font-bold text-center">Mis Tecnologias Web Favoritas</h1>
       <ul className="flex items-center my-6 scroll">
         {
