@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       "name" : "Next",
-      "url" : "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg",
+      "url" : "https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png",
     },
     {
       "name": "Tailwind",
@@ -37,7 +37,11 @@ export default function Home() {
     },
     {
       "name": "Firebase",
-      "url": "https://www.gstatic.com/devrel-devsite/prod/v1674d466be3b1154327dd11cf186e748303b1e92ae31ff35df0f5192fbd777ea/firebase/images/touchicon-180.png"
+      "url": "https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png"
+    },
+    {
+      "name": "Bootstrap",
+      "url": "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png"
     }
   ]
   return (
