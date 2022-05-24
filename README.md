@@ -9,9 +9,3 @@
 <code>
   Gatsby develop
 </code>
-
-**or** 
-
-<code>
-  npm run dev
-</code>
