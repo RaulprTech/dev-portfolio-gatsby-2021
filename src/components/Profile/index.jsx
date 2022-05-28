@@ -63,7 +63,7 @@ const Info = () => {
                   <img
                     src={Web}
                     alt="Planeta de lineas, representando a internet"
-                    className="h-4 w-4 mr-2"
+                    className="h-4 w-4 mr-2 rounded-full"
                   />
                   Descargar Curriculum
                 </button>
